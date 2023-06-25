@@ -1,5 +1,6 @@
 package victor.training.java.stream.menu;
 
+//Dish class
 public class Dish {
     private final String name;
     private final boolean vegetarian;
