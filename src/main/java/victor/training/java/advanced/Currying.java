@@ -11,6 +11,7 @@ public class Currying {
 
       Function<Integer, Integer> max2 = partialApply(Integer::max, 2);
       System.out.println(max2.apply(5));
+	  System.out.println(max2.apply(3));
       System.out.println(max2.apply(1));
    }
 
