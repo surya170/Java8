@@ -18,8 +18,9 @@ public class BasicsRecap {
 
       MyEntity myEntity = new MyEntity();
       MyDto dto = new MyDto(myEntity); // compiles
+      System.out.println(dto);
       Function<MyEntity, MyDto> f3 = MyDto::new;
-
+      
 
    }
 
